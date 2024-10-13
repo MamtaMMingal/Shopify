@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id = "header">
+        <a href="#"><img src="img/logo.png" class ="logo" alt=""></a>
+    <div>
+        <ul id = "navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+</section>
+</div>
+<section id = "p-details" class="section">
+    <div class = "single-p-img">
+        <img src="img/p1.jpg" width = "100%" id="Mainimg" alt="">
+        <div class ="small-img-grp" id="small-img-grp">
+            <div class="small-img-col">
+                <img src="img/p2.jpg" width="100%" class ="small-img" alt="" onclick="onc(this)">
+            </div>
+            <div class="small-img-col">
+                    <img src="img/p3.jpg" width="100%" class ="small-img" alt="" onclick="onc(this)">
+                </div>
+            <div class="small-img-col">
+                        <img src="img/p4.jpg" width="100%" class ="small-img" alt="" onclick="onc(this)">
+                </div>
+            <div class="small-img-col">
+                        <img src="img/p5.jpg" width="100%" class ="small-img" alt="" onclick="onc(this)">
+                </div>
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <h6>Home /T-Shirt</h6>
+        <h4>Men's Fashion T-Shirt</h4>
+        <h2>$139.00</h2>
+        <select>
+            <option>Select Size</option>
+            <option>S</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>Large</option>
+        </select>
+        <input type="number" value ="1">
+        <button class ="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>The Adidas Trefoil Classics T-shirt blends timeless design with everyday comfort, crafted from premium, soft cotton that feels gentle on the skin. Its relaxed fit ensures ease of movement, making it perfect for laid-back, casual wear. The standout feature is the bold, oversized Trefoil logo prominently displayed on the chest, paying homage to Adidas' storied legacy in both athletic and streetwear culture.</span>
+    </div>
+</section>
+<section id ="featurep" class="section1">
+    <h1>Featured Products</h1>
+    <h3>Summer Collection New Modern Design</h3>
+    <div class ="pro-container">
+        <div class="pro">
+            <img src="img/n1.jpg" alt="">
+            <div class="desc">
+                <span>adidas</span>
+                <h2>Adidas Trefoil Classics T-shirt</h2>
+                <div class ="star">
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                </div>
+                <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="font-size: 24px; color: #088178;"></i></a>
+            </div>
+
+        <div class="pro">
+            <img src="img/n2.jpg" alt="">
+            <div class="desc">
+                <span>adidas</span>
+                <h2>Adidas Trefoil Classics T-shirt</h2>
+                <div class ="star">
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                </div>
+                <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="font-size: 24px; color: #088178;"></i></a>
+        </div>
+        <div class="pro">
+            <img src="img/n3.jpg" alt="">
+            <div class="desc">
+                <span>adidas</span>
+                <h2>Adidas Trefoil Classics T-shirt</h2>
+                <div class ="star">
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                </div>
+                <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="font-size: 24px; color: #088178;"></i></a>
+        </div>
+        <div class="pro">
+            <img src="img/n4.jpg" alt="">
+            <div class="desc">
+                <span>adidas</span>
+                <h2>Adidas Trefoil Classics T-shirt</h2>
+                <div class ="star">
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                    <i class = "fas fa-star" ></i>
+                </div>
+                <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="font-size: 24px; color: #088178;"></i></a>
+        </div>
+    </div>
+</section>
+<section id = "Newsletter"class="section1" class="section-m1" >
+    <div class = "Newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail update about our latest shop and <span>Special offers!</span></p>
+    </div>
+    <div class = "Form">
+        <input type="text" placeholder="Your email address">
+        <button>Sign up</button>
+    </div>
+
+</section>
+<footer class="section1">
+    <div class ="col">
+        <img class = "logo"src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>Gandhi road,Street 20,Maharashtra,India</p>
+        <p><strong>Phone:</strong>+91-123456789</p>
+        <p><strong>Hours:</strong>9:00 - 17:00,Mon-Sat</p>
+        <div class="Follow">
+            <h3>Follow Us</h3>
+            <div class = "icon">
+                <i class = "fab fa-facebook-f"></i>
+                <i class = "fab fa-twitter"></i>
+                <i class = "fab fa-instagram"></i>
+                <i class = "fab fa-pinterest-p"></i>
+                <i class = "fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <div class = "col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class ="col">
+        <h4>My Account</h4>
+        <a href="#">Sigh in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    <div class = "col install">
+        <h4>Install App</h4>
+        <p style="font-size: 18px;">From App Storw or Google Play</p>
+        <div class = "row">
+            <img src="img/app.jpg" alt="">
+            <img src="img/play.jpg" alt="">
+        </div>
+        <p style="font-size: 18px;">Secured Payment Gateway</p>
+        <img src="img/pay.png" alt="">
+    </div>
+</footer>
+<section class="Copyright">
+    <div class = "copyright">
+        <p>2024,Tech etc-HTML CSS Ecommerce Template</p>
+    </div>
+</section>
+    <script >
+        var Mainimg = document.getElementById("Mainimg");
+        var Smallimg = document.getElementById("small-img-grp")
+        function onc(event) {
+            console.log(197,event.target, event)
+            Mainimg.src = event.src
+        }
+
+     
+
+    </script>
+    
+</body>
+</html
